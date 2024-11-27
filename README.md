@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,15 +10,15 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #2c3e50; /* Same color as the header */
-            color: white; /* Text color to ensure visibility on dark background */
+            background-color: #2c3e50; /* Dark grey background */
+            color: white; /* Text color for visibility */
             line-height: 1.6;
             box-sizing: border-box;
         }
 
         /* Header Styles */
         header {
-            background-color: #2c3e50; /* Dark background for header */
+            background-color: #2c3e50; /* Dark grey background for header */
             color: white;
             text-align: center;
             padding: 2rem;
@@ -35,7 +36,7 @@
         }
 
         nav a {
-            color: #ecf0f1; /* Light text color */
+            color: #ecf0f1; /* Light text color for links */
             text-decoration: none;
             margin: 0 1rem;
             font-size: 1.1rem;
@@ -45,7 +46,7 @@
         }
 
         nav a:hover {
-            background-color: #3498db; /* Add hover background */
+            background-color: #3498db; /* Blue hover background for links */
             color: white;
         }
 
@@ -54,27 +55,27 @@
             margin: 2rem auto;
             max-width: 1000px;
             padding: 2rem;
-            background-color: #ecf0f1; /* Light gray background for sections */
-            color: #34495e; /* Darker text color for readability */
+            background-color: #3498db; /* Blue background for sections */
+            color: #ecf0f1; /* Light text color for better contrast */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
             font-size: 2rem;
-            color: #34495e; /* Dark text color for headings */
-            border-bottom: 2px solid #e67e22; /* Warm orange border */
+            color: white; /* White color for headings */
+            border-bottom: 2px solid #ecf0f1; /* Light border below heading */
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
 
         section p, section ul {
             font-size: 1.1rem;
-            color: #555;
+            color: #ecf0f1; /* White text for paragraphs */
         }
 
         section a {
-            color: #e67e22; /* Orange links to match border */
+            color: #ecf0f1; /* White links */
             text-decoration: none;
         }
 
