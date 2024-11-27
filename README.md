@@ -193,9 +193,10 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out to me on:</p>
-        <ul>
-            <li>Email: <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li>
-            <li>GitHub: <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li>
+        <ul> 
+            <li>Email : <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li>
+            <li>GitHub : <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li>
+            <li>Linked in :<a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289/</a></li>
         </ul>
     </section>
 
