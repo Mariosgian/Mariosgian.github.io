@@ -16,8 +16,9 @@
     </nav>
     <main>
         <section id="about">
-            <h2>About</h2>
-            <p>This is a simple and clean website design with a focus on usability and aesthetics.</p>
+            <h2>About me</h2>
+            <p1>I currently study Computer Science at the University of Athens.</p1>
+            <p2>I really enjoy coding</p2>
         </section>
         <section id="services">
             <h2>Services</h2>
