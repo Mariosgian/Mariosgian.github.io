@@ -28,7 +28,7 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Reach us at <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></p>
+            <p>Reach me at <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></p>
         </section>
     </main>
     <footer>
