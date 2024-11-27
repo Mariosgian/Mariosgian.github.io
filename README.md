@@ -23,6 +23,7 @@
             <ul>
                 <li>C/C++ coding</li>
                 <li>Web design</li>
+                <li>Html coding</li>
             </ul>
         </section>
         <section id="contact">
