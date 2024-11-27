@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <style>
-        /* General Styles */
+        /* Default (Light Mode) Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000; /* Black background */
-            color: #fff; /* White text */
+            background-color: #fff; /* White background for light mode */
+            color: #000; /* Black text */
             line-height: 1.6;
             box-sizing: border-box;
         }
 
         /* Header Styles */
         header {
-            background-color: #000; /* Black background for header */
-            color: #fff; /* White text */
+            background-color: #fff; /* White background for header */
+            color: #000; /* Black text */
             text-align: center;
             padding: 3rem;
         }
@@ -36,7 +36,7 @@
         }
 
         nav a {
-            color: #fff; /* White links */
+            color: #000; /* Black links */
             text-decoration: none;
             margin: 0 1rem;
             font-size: 1.2rem;
@@ -46,8 +46,8 @@
         }
 
         nav a:hover {
-            background-color: #fff; /* White background on hover */
-            color: #000; /* Black text on hover */
+            background-color: #000; /* Black background on hover */
+            color: #fff; /* White text on hover */
         }
 
         /* Section Styles */
@@ -55,16 +55,16 @@
             margin: 2rem auto;
             max-width: 1000px;
             padding: 3rem;
-            background-color: #222; /* Dark gray background for sections */
-            color: #fff; /* White text */
+            background-color: #f7f7f7; /* Light gray background for sections */
+            color: #000; /* Black text */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
             font-size: 2rem;
-            color: #fff; /* White section headings */
-            border-bottom: 2px solid #fff; /* White border below heading */
+            color: #000; /* Black section headings */
+            border-bottom: 2px solid #000; /* Black border below heading */
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
@@ -74,7 +74,7 @@
         }
 
         section a {
-            color: #fff; /* White links in sections */
+            color: #000; /* Black links in sections */
             text-decoration: none;
         }
 
@@ -82,43 +82,63 @@
             text-decoration: underline;
         }
 
-        /* Projects Section */
-        #projects ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        #projects li {
-            margin-bottom: 0.5rem;
-            font-size: 1.2rem;
-        }
-
-        /* Contact Section */
-        #contact ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #contact li {
-            margin-bottom: 0.5rem;
-        }
-
         /* Footer Styles */
         footer {
             text-align: center;
             padding: 1.5rem;
-            background-color: #000; /* Black background for footer */
-            color: #fff; /* White text */
+            background-color: #fff; /* White background for footer */
+            color: #000; /* Black text */
             margin-top: 2rem;
         }
 
         footer a {
-            color: #fff; /* White links in footer */
+            color: #000; /* Black links in footer */
             text-decoration: none;
         }
 
         footer a:hover {
             text-decoration: underline;
+        }
+
+        /* Dark Mode Styles */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212; /* Dark background */
+                color: #fff; /* White text */
+            }
+
+            header {
+                background-color: #121212; /* Dark background for header */
+                color: #fff; /* White text */
+            }
+
+            nav a {
+                color: #fff; /* White links */
+            }
+
+            nav a:hover {
+                background-color: #fff; /* White background on hover */
+                color: #121212; /* Dark text on hover */
+            }
+
+            section {
+                background-color: #1c1c1c; /* Dark gray background for sections */
+                color: #fff; /* White text */
+            }
+
+            section h2 {
+                color: #fff; /* White section headings */
+                border-bottom: 2px solid #fff; /* White border below heading */
+            }
+
+            footer {
+                background-color: #121212; /* Dark footer background */
+                color: #fff; /* White text */
+            }
+
+            footer a {
+                color: #fff; /* White links in footer */
+            }
         }
 
         /* Responsive Design */
