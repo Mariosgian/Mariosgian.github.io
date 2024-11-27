@@ -1,5 +1,5 @@
     
-</head>
+<html>
 <body>
     <header>
         <h1>Welcome to my personal website!</h1>
@@ -37,3 +37,4 @@
     </footer>
 </body>
 </html>
+
