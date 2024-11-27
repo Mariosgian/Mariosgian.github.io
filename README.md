@@ -196,7 +196,7 @@
         <ul> 
             <li>Email : <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li>
             <li>GitHub : <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li>
-            <li>Linked in :<a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289/</a></li>
+            <li>LinkedIn : <a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289" target="_blank">linkedin.com/in/marios-konstantinos-giannoulis</a></li>
         </ul>
     </section>
 
