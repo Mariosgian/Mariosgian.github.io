@@ -26,7 +26,7 @@ Marios Konstantinos Giannoulis     sdi2400028   ΑΜ:1115-2024-00028
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>Reach us at <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Reach us at <a href="mailto:mariosgiannouliw@gmail.com">info@example.com</a></p>
         </section>
     </main>
     <footer>
