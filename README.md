@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,18 +10,18 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #34495e; /* Dark background */
-            color: #ecf0f1; /* Light text color for contrast */
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
             line-height: 1.6;
             box-sizing: border-box;
         }
 
         /* Header Styles */
         header {
-            background-color: #1abc9c; /* Rich teal background for header */
-            color: #ecf0f1; /* Light text */
+            background-color: #000; /* Black background for header */
+            color: #fff; /* White text */
             text-align: center;
-            padding: 2rem;
+            padding: 3rem;
         }
 
         header h1 {
@@ -36,46 +36,45 @@
         }
 
         nav a {
-            color: #f39c12; /* Warm golden color for links */
+            color: #fff; /* White links */
             text-decoration: none;
             margin: 0 1rem;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: 500;
             padding: 0.5rem 1rem;
             border-radius: 4px;
         }
 
         nav a:hover {
-            background-color: #f39c12; /* Golden background for hover */
-            color: #34495e; /* Dark color for hover text */
+            background-color: #fff; /* White background on hover */
+            color: #000; /* Black text on hover */
         }
 
         /* Section Styles */
         section {
             margin: 2rem auto;
             max-width: 1000px;
-            padding: 2rem;
-            background: linear-gradient(135deg, #8e44ad, #3498db); /* Purple to blue gradient */
-            color: #ecf0f1; /* Light text color */
+            padding: 3rem;
+            background-color: #222; /* Dark gray background for sections */
+            color: #fff; /* White text */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
             font-size: 2rem;
-            color: #ecf0f1; /* Light text for section headings */
-            border-bottom: 2px solid #f39c12; /* Golden border below heading */
+            color: #fff; /* White section headings */
+            border-bottom: 2px solid #fff; /* White border below heading */
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
 
         section p, section ul {
             font-size: 1.1rem;
-            color: #ecf0f1;
         }
 
         section a {
-            color: #f39c12; /* Golden links */
+            color: #fff; /* White links in sections */
             text-decoration: none;
         }
 
@@ -108,13 +107,13 @@
         footer {
             text-align: center;
             padding: 1.5rem;
-            background-color: #34495e; /* Same dark background for footer */
-            color: #ecf0f1; /* Light text */
+            background-color: #000; /* Black background for footer */
+            color: #fff; /* White text */
             margin-top: 2rem;
         }
 
         footer a {
-            color: #f39c12;
+            color: #fff; /* White links in footer */
             text-decoration: none;
         }
 
@@ -134,7 +133,7 @@
             }
 
             section {
-                padding: 1.5rem;
+                padding: 2rem;
             }
 
             section h2 {
