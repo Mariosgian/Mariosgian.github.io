@@ -2,15 +2,6 @@
 Marios Konstantinos Giannoulis     sdi2400028   ΑΜ:1115-2024-00028
 
 
-# Website Design Documentation
-
-This document outlines a simple website design in HTML. It includes sections for the header, navigation, main content, and footer, with clean and minimal styling.
-
----
-
-## HTML Structure
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,4 +86,3 @@ This document outlines a simple website design in HTML. It includes sections for
     </footer>
 </body>
 </html>
-
