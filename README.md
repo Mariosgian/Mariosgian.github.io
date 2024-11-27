@@ -10,8 +10,8 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7; /* Soft gray background */
-            color: #333;
+            background-color: #2c3e50; /* Same color as the header */
+            color: white; /* Text color to ensure visibility on dark background */
             line-height: 1.6;
             box-sizing: border-box;
         }
@@ -55,7 +55,8 @@
             margin: 2rem auto;
             max-width: 1000px;
             padding: 2rem;
-            background-color: white;
+            background-color: white; /* White background for sections */
+            color: #333; /* Dark text color in sections */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
