@@ -10,16 +10,16 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #2c3e50; /* Dark grey background */
-            color: white; /* Text color for visibility */
+            background-color: #34495e; /* Dark background */
+            color: #ecf0f1; /* Light text color for contrast */
             line-height: 1.6;
             box-sizing: border-box;
         }
 
         /* Header Styles */
         header {
-            background-color: #2c3e50; /* Dark grey background for header */
-            color: white;
+            background-color: #1abc9c; /* Rich teal background for header */
+            color: #ecf0f1; /* Light text */
             text-align: center;
             padding: 2rem;
         }
@@ -36,7 +36,7 @@
         }
 
         nav a {
-            color: #ecf0f1; /* Light text color for links */
+            color: #f39c12; /* Warm golden color for links */
             text-decoration: none;
             margin: 0 1rem;
             font-size: 1.1rem;
@@ -46,8 +46,8 @@
         }
 
         nav a:hover {
-            background-color: #3498db; /* Blue hover background for links */
-            color: white;
+            background-color: #f39c12; /* Golden background for hover */
+            color: #34495e; /* Dark color for hover text */
         }
 
         /* Section Styles */
@@ -55,27 +55,27 @@
             margin: 2rem auto;
             max-width: 1000px;
             padding: 2rem;
-            background-color: #3498db; /* Blue background for sections */
-            color: #ecf0f1; /* Light text color for better contrast */
+            background: linear-gradient(135deg, #8e44ad, #3498db); /* Purple to blue gradient */
+            color: #ecf0f1; /* Light text color */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
             font-size: 2rem;
-            color: white; /* White color for headings */
-            border-bottom: 2px solid #ecf0f1; /* Light border below heading */
+            color: #ecf0f1; /* Light text for section headings */
+            border-bottom: 2px solid #f39c12; /* Golden border below heading */
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
 
         section p, section ul {
             font-size: 1.1rem;
-            color: #ecf0f1; /* White text for paragraphs */
+            color: #ecf0f1;
         }
 
         section a {
-            color: #ecf0f1; /* White links */
+            color: #f39c12; /* Golden links */
             text-decoration: none;
         }
 
@@ -108,13 +108,13 @@
         footer {
             text-align: center;
             padding: 1.5rem;
-            background-color: #2c3e50;
-            color: white;
+            background-color: #34495e; /* Same dark background for footer */
+            color: #ecf0f1; /* Light text */
             margin-top: 2rem;
         }
 
         footer a {
-            color: #3498db;
+            color: #f39c12;
             text-decoration: none;
         }
 
