@@ -5,7 +5,7 @@
     
 </head>
 <body>
-    <title>Marios</title>
+    <title> Marios </title>
     <header>
         <h1>Welcome to My Website</h1>
     </header>
