@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,16 +54,16 @@
             margin: 2rem auto;
             max-width: 1000px;
             padding: 2rem;
-            background-color: white; /* White background for sections */
-            color: #333; /* Dark text color in sections */
+            background-color: #ecf0f1; /* Light gray background for sections */
+            color: #34495e; /* Darker text color for readability */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         section h2 {
             font-size: 2rem;
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
+            color: #34495e; /* Dark text color for headings */
+            border-bottom: 2px solid #e67e22; /* Warm orange border */
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
@@ -75,7 +74,7 @@
         }
 
         section a {
-            color: #3498db;
+            color: #e67e22; /* Orange links to match border */
             text-decoration: none;
         }
 
