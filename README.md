@@ -180,7 +180,7 @@
 
     <section id="studies">
         <h2>About My Studies</h2>
-        <p>I currently study at the <a href="https://www.di.uoa.gr/" target="_blank">Department of Informatics and Telecommunications</a>, in the National and Kapodistrian University of Athens.</p>
+        <p>I currently study at the <u> <a href="https://www.di.uoa.gr/" target="_blank">Department of Informatics and Telecommunications</a> </u> , in the National and Kapodistrian University of Athens.</p>
     </section>
 
     <section id="projects">
@@ -194,14 +194,14 @@
         <h2>Contact</h2>
         <p>Feel free to reach out to me on:</p>
         <ul> 
-            <li>Email : <u> <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li></u>
-            <li>GitHub : <u> <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li></u>
-            <li>LinkedIn : <u> <a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289" target="_blank">linkedin.com/in/marios-konstantinos-giannoulis</a></li></u>
+            <li>Email : <u> <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a> </u> </li> 
+            <li>GitHub : <u> <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a> </u> </li> 
+            <li>LinkedIn : <u> <a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289" target="_blank">linkedin.com/in/marios-konstantinos-giannoulis</a> </u> </li>
         </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 Marios Konstantinos Giannoulis. Built with ❤️ and hosted on <u> <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>< /u>.</p>
+        <p>&copy; 2024 Marios Konstantinos Giannoulis. Built with ❤️ and hosted on <u> <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> </u>.</p>
     </footer>
 </body>
 </html>
