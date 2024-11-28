@@ -194,14 +194,14 @@
         <h2>Contact</h2>
         <p>Feel free to reach out to me on:</p>
         <ul> 
-            <li>Email : <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li>
-            <li>GitHub : <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li>
-            <li>LinkedIn : <a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289" target="_blank">linkedin.com/in/marios-konstantinos-giannoulis</a></li>
+            <li>Email : <u> <a href="mailto:mariosgiannouliw@gmail.com">mariosgiannouliw@gmail.com</a></li></u>
+            <li>GitHub : <u> <a href="https://github.com/Mariosgian" target="_blank">github.com/Mariosgian</a></li></u>
+            <li>LinkedIn : <u> <a href="https://www.linkedin.com/in/marios-konstantinos-giannoulis-129576289" target="_blank">linkedin.com/in/marios-konstantinos-giannoulis</a></li></u>
         </ul>
     </section>
 
     <footer>
-        <p>&copy; 2024 Marios Konstantinos Giannoulis. Built with ❤️ and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+        <p>&copy; 2024 Marios Konstantinos Giannoulis. Built with ❤️ and hosted on <u> <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>< /u>.</p>
     </footer>
 </body>
 </html>
