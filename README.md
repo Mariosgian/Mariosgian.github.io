@@ -175,7 +175,7 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm <strong>Marios Konstantinos Giannoulis</strong>, a passionate developer with expertise in C/C++. I love solving complex problems and building impactful projects. Welcome to my personal space on the web!</p>
+        <p>Hello! I'm <strong>Marios Konstantinos Giannoulis</strong>, a passionate developer with expertise in C/C++ and HTML. I love solving complex problems and building impactful projects. Welcome to my personal space on the web!</p>
     </section>
 
     <section id="studies">
