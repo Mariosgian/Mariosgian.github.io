@@ -186,7 +186,7 @@
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li>No projects yet, but stay tuned for future updates!</li>
+            <li>Currently, I’m working on my biggest project yet — implementing chess in C.</li>
         </ul>
     </section>
 
