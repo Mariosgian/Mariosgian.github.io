@@ -39,14 +39,6 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        header img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 1rem;
-        }
-
         nav {
             margin-top: 1rem;
         }
@@ -110,7 +102,6 @@
 </head>
 <body>
     <header>
-        <img src="profile.jpg" alt="Marios Konstantinos Giannoulis"> <!-- Profile Picture -->
         <h1>Welcome to my personal website!</h1>
         <nav>
             <a href="#about" class="active">About Me</a>
