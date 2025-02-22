@@ -125,7 +125,7 @@
         <h2>Projects</h2>
         <ul>
             <li><strong>Chess Game in C</strong> - Implementing a console-based chess game. <a href="https://github.com/Mariosgian/chess">View on GitHub</a></li>
-            <li><strong>Traveling Salesman Problem Solver</strong> - Optimizing city visits based on distance. <a href="https://github.com/Mariosgian/tsp">View on GitHub</a></li>
+            <li><strong>Traveling Salesman Problem Solver</strong> - Optimizing city visits based on distance. <a href="https://github.com/progintro/hw2-Mariosgian/tree/main/jabbamaps">View on GitHub</a></li>
         </ul>
     </section>
 
