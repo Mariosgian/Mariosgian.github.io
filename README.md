@@ -92,6 +92,22 @@
             margin-top: 2rem;
         }
 
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 0.8rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            display: none;
+        }
+        .back-to-top:hover {
+            background-color: #0056b3;
+        }
+
         @media (prefers-color-scheme: dark) {
             body, header, footer {
                 background-color: #121212;
@@ -119,6 +135,7 @@
             <a href="#about" class="active">About Me</a>
             <a href="#studies">My Studies</a>
             <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -142,6 +159,17 @@
             </ul>
         </section>
 
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C/C++ Programming</li>
+                <li>Algorithm Design</li>
+                <li>Problem Solving</li>
+                <li>Git & GitHub</li>
+                <li>Software Development</li>
+            </ul>
+        </section>
+
         <section id="contact">
             <h2>Contact</h2>
             <p>Feel free to reach out:</p>
@@ -156,5 +184,35 @@
     <footer>
         <p>&copy; 2025 Marios Konstantinos Giannoulis. Built with ❤️ and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
     </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Back to top button functionality
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
